@@ -1,5 +1,6 @@
 # LangGraph Agent Architecture
-A structured implementation of graph-based agent systems using LangGraph — covering conditional routing, tool calling, memory, tracing, and human-in-the-loop (HITL) workflows.
+
+A structured implementation of graph-based agent systems using LangGraph, covering conditional routing, tool calling, memory, tracing, and human-in-the-loop (HITL) workflows.
 
 This repository incrementally builds from simple LLM graphs to more advanced agentic architectures, focusing on clarity, modularity, and extensibility.
 
@@ -13,7 +14,7 @@ This repository incrementally builds from simple LLM graphs to more advanced age
 - Short-term memory integration
 - Execution tracing
 - Human-in-the-loop intervention
-- 
+
 Each notebook builds on the previous one to demonstrate progressive complexity.
 
 ## Tech Stack
@@ -21,7 +22,7 @@ Each notebook builds on the previous one to demonstrate progressive complexity.
 - Python 3.10+
 - LangGraph
 - LangChain
-- Groq/Google Gemmini
+- Groq / Google Gemini
 - LangSmith (monitoring)
 - uv (environment & dependency management)
 - Jupyter Notebook
